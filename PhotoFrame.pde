@@ -24,7 +24,7 @@ void setup(){
     p.setPosition(100,20);
 }
 void draw(){
-    background(0,0,0);
+    background(FF,00,FF);
     for(int i=0;i<20;i++){
         dots[i].draw();
         tri[i].draw();
